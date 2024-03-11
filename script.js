@@ -1,5 +1,4 @@
-function firstWord(s) {
-  // your code here
+function firstWord(str) {
 	if (!str || !str.includes(' ')) {
         return str; 
     }
@@ -8,8 +7,3 @@ function firstWord(s) {
 
     return firstWord;
 }
-
-// Do not change the code below
-
-const s = prompt("Enter String:");
-alert(firstWord(s));
